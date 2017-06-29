@@ -1,0 +1,12 @@
+Click button tu toggle it on/off. 
+
+wait 1s
+play0
+wait1s
+play1
+
+if button off
+	dont play
+
+
+

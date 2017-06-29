@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="drumkit.css">
+    <!-- Add icon library -->
+    <script src="drums.js"></script>
+	 
+  </head>
+
+  <body onload="setup()" >
+
+    <div class="grid container gridtable">
+
+      <!-- 1. row -->
+      <div class="keys" align="center">.
+
+        <button id="buttonA_1" type="button" onclick="toggle(this)"></button>
+        <button id="buttonA_2" type="button" onclick="toggle(this)"></button>
+        <button id="buttonA_3" type="button" onclick="toggle(this)"></button>
+        <button id="buttonA_4" type="button" onclick="toggle(this)"></button>
+        <button id="buttonA_5" type="button" onclick="toggle(this)"></button>
+        <button id="buttonA_6" type="button" onclick="toggle(this)"></button>
+        <button id="buttonA_7" type="button" onclick="toggle(this)"></button>
+        <button id="buttonA_8" type="button" onclick="toggle(this)"></button>
+		<button id="buttonA_9" type="button" onclick="toggle(this)"></button>
+		<button id="buttonA_0" type="button" onclick="toggle(this)"></button>
+		<button id="buttonA_A" type="button" onclick="toggle(this)"></button>
+		<button id="buttonA_B" type="button" onclick="toggle(this)"></button>
+		<button id="buttonA_C" type="button" onclick="toggle(this)"></button>
+		<button id="buttonA_D" type="button" onclick="toggle(this)"></button>
+		<button id="buttonA_E" type="button" onclick="toggle(this)"></button>
+		<button id="buttonA_F" type="button" onclick="toggle(this)"></button>
+
+      .</div>
+      <!-- 2. row -->
+      <div class="keys" align="center">.
+
+        <button id="buttonB_1" type="button" onclick="toggle(this)"></button>
+        <button id="buttonB_2" type="button" onclick="toggle(this)"></button>
+        <button id="buttonB_3" type="button" onclick="toggle(this)"></button>
+        <button id="buttonB_4" type="button" onclick="toggle(this)"></button>
+        <button id="buttonB_5" type="button" onclick="toggle(this)"></button>
+        <button id="buttonB_6" type="button" onclick="toggle(this)"></button>
+        <button id="buttonB_7" type="button" onclick="toggle(this)"></button>
+        <button id="buttonB_8" type="button" onclick="toggle(this)"></button>
+		<button id="buttonB_9" type="button" onclick="toggle(this)"></button>
+		<button id="buttonB_0" type="button" onclick="toggle(this)"></button>
+		<button id="buttonB_A" type="button" onclick="toggle(this)"></button>
+		<button id="buttonB_B" type="button" onclick="toggle(this)"></button>
+		<button id="buttonB_C" type="button" onclick="toggle(this)"></button>
+		<button id="buttonB_D" type="button" onclick="toggle(this)"></button>
+		<button id="buttonB_E" type="button" onclick="toggle(this)"></button>
+		<button id="buttonB_F" type="button" onclick="toggle(this)"></button>
+                          
+      .</div>
+      <!-- 3. row -->
+      <div class="keys" align="center">.
+
+        <button id="buttonC_1" type="button" onclick="toggle(this)"></button>
+        <button id="buttonC_2" type="button" onclick="toggle(this)"></button>
+        <button id="buttonC_3" type="button" onclick="toggle(this)"></button>
+        <button id="buttonC_4" type="button" onclick="toggle(this)"></button>
+        <button id="buttonC_5" type="button" onclick="toggle(this)"></button>
+        <button id="buttonC_6" type="button" onclick="toggle(this)"></button>
+        <button id="buttonC_7" type="button" onclick="toggle(this)"></button>
+        <button id="buttonC_8" type="button" onclick="toggle(this)"></button>
+		<button id="buttonC_9" type="button" onclick="toggle(this)"></button>
+		<button id="buttonC_0" type="button" onclick="toggle(this)"></button>
+		<button id="buttonC_A" type="button" onclick="toggle(this)"></button>
+		<button id="buttonC_B" type="button" onclick="toggle(this)"></button>
+		<button id="buttonC_C" type="button" onclick="toggle(this)"></button>
+		<button id="buttonC_D" type="button" onclick="toggle(this)"></button>
+		<button id="buttonC_E" type="button" onclick="toggle(this)"></button>
+		<button id="buttonC_F" type="button" onclick="toggle(this)"></button>
+
+      .</div>
+      <!-- 4. row -->
+      <div class="keys" align="center">.
+
+        <button id="buttonD_1" type="button" onclick="toggle(this)"></button>
+        <button id="buttonD_2" type="button" onclick="toggle(this)"></button>
+        <button id="buttonD_3" type="button" onclick="toggle(this)"></button>
+        <button id="buttonD_4" type="button" onclick="toggle(this)"></button>
+        <button id="buttonD_5" type="button" onclick="toggle(this)"></button>
+        <button id="buttonD_6" type="button" onclick="toggle(this)"></button>
+        <button id="buttonD_7" type="button" onclick="toggle(this)"></button>
+        <button id="buttonD_8" type="button" onclick="toggle(this)"></button>
+		<button id="buttonD_9" type="button" onclick="toggle(this)"></button>
+		<button id="buttonD_0" type="button" onclick="toggle(this)"></button>
+		<button id="buttonD_A" type="button" onclick="toggle(this)"></button>
+		<button id="buttonD_B" type="button" onclick="toggle(this)"></button>
+		<button id="buttonD_C" type="button" onclick="toggle(this)"></button>
+		<button id="buttonD_D" type="button" onclick="toggle(this)"></button>
+		<button id="buttonD_E" type="button" onclick="toggle(this)"></button>
+		<button id="buttonD_F" type="button" onclick="toggle(this)"></button>
+
+      .</div>
+
+      <!-- 5. row -->
+      <div class="keys" align="center">.
+
+        <button id="buttonE_1" type="button" onclick="toggle(this)"></button>
+        <button id="buttonE_2" type="button" onclick="toggle(this)"></button>
+        <button id="buttonE_3" type="button" onclick="toggle(this)"></button>
+        <button id="buttonE_4" type="button" onclick="toggle(this)"></button>
+        <button id="buttonE_5" type="button" onclick="toggle(this)"></button>
+        <button id="buttonE_6" type="button" onclick="toggle(this)"></button>
+        <button id="buttonE_7" type="button" onclick="toggle(this)"></button>
+        <button id="buttonE_8" type="button" onclick="toggle(this)"></button>
+		<button id="buttonE_9" type="button" onclick="toggle(this)"></button>
+		<button id="buttonE_0" type="button" onclick="toggle(this)"></button>
+		<button id="buttonE_A" type="button" onclick="toggle(this)"></button>
+		<button id="buttonE_B" type="button" onclick="toggle(this)"></button>
+		<button id="buttonE_C" type="button" onclick="toggle(this)"></button>
+		<button id="buttonE_D" type="button" onclick="toggle(this)"></button>
+		<button id="buttonE_E" type="button" onclick="toggle(this)"></button>
+		<button id="buttonE_F" type="button" onclick="toggle(this)"></button>
+
+      .</div>
+
+    </div>
+
+      <!-- beat grid -->
+      <div class="button" align=center>
+
+        <button class="beat" id="beat1" class="button"></button>
+        <button class="beat" id="beat2" class="button"></button>
+        <button class="beat" id="beat3" class="button"></button>
+        <button class="beat" id="beat4" class="button"></button>
+        <button class="beat" id="beat5" class="button"></button>
+        <button class="beat" id="beat6" class="button"></button>
+        <button class="beat" id="beat7" class="button"></button>
+        <button class="beat" id="beat8" class="button"></button>
+		<button class="beat" id="beat9" class="button"></button>
+		<button class="beat" id="beat0" class="button"></button>
+		<button class="beat" id="beatA" class="button"></button>
+		<button class="beat" id="beatB" class="button"></button>
+		<button class="beat" id="beatC" class="button"></button>
+		<button class="beat" id="beatD" class="button"></button>
+		<button class="beat" id="beatE" class="button"></button>
+		<button class="beat" id="beatF" class="button"></button>
+      </div>
+		
+	
+	<br>
+	
+	
+	  <div class="button" align="center">
+	    <button id="start" class="button2" onclick="playback();">
+        <span class="sound">Start</span>
+        </button>        
+	  <input class=Intt value="tempoInt" id="msInt"></input>
+      <button class="control" onclick="changeTempo()">
+	  SetBPM</button>
+    </div>
+
+    <!-- Audio files -->
+    <audio id="noteA" src="notes/1.wav"></audio>
+    <audio id="noteB" src="notes/2.wav"></audio>
+    <audio id="noteC" src="notes/4.wav"></audio>
+    <audio id="noteD" src="notes/3.wav"></audio>
+    <audio id="noteE" src="notes/5.wav"></audio>
+    <audio id="noteF" src="notes/6.wav"></audio>
+    <audio id="noteG" src="notes/7.wav"></audio>
+    <audio id="noteH" src="notes/8.wav"></audio>
+    <audio id="noteG2" src="notes/9.wav"></audio>
+
+  </body>
+</html>
